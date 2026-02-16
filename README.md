@@ -135,10 +135,10 @@ nano .env
 
 **Key Environment Variables:**
 
-```bash
+```env
 # Change these to match your server configuration
 SERVER_ADDRESS=192.168.0.254
-SERVER_PORT=3001
+API_PORT=3001
 ACCESS_PASSWORD=seedbox123
 
 # Change these only if you know what you're doing
@@ -194,30 +194,34 @@ curl http://localhost:3001/api/cache/stats
 ### Environment Variables Reference
 
 #### Backend Variables
+
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `NODE_ENV` | `production` | Application environment |
-| `SERVER_PORT` | `3001` | Backend server port |
+| `API_PORT` | `3001` | Backend API server port |
 | `SERVER_HOST` | `0.0.0.0` | Backend server host |
 | `ACCESS_PASSWORD` | `seedbox123` | Authentication password |
 | `MAX_CACHE_SIZE` | `5GB` | Maximum cache size |
 | `CLEANUP_INTERVAL` | `1h` | Cache cleanup interval |
 
 #### Frontend Variables
+
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `VITE_API_BASE_URL` | `http://localhost:3001` | Backend API URL |
 | `FRONTEND_URL` | `http://localhost:5174` | Frontend URL |
 
 #### Docker Variables
+
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `BACKEND_PORT` | `3001` | Docker backend port mapping |
+| `API_PORT` | `3001` | Docker backend port mapping |
 | `FRONTEND_PORT` | `5174` | Docker frontend port mapping |
 
 ### Advanced Configuration
 
 #### Nginx Configuration (Production)
+
 ```nginx
 server {
     listen 80;
@@ -339,6 +343,7 @@ POST /api/cache/clear
 ## 🛡 Security
 
 ### Best Practices
+
 - Change default password immediately
 - Use HTTPS in production
 - Keep dependencies updated
@@ -346,6 +351,7 @@ POST /api/cache/clear
 - Regular security audits
 
 ### Security Headers
+
 The application includes security headers:
 - X-Frame-Options: SAMEORIGIN
 - X-Content-Type-Options: nosniff
@@ -355,6 +361,7 @@ The application includes security headers:
 ## 🚀 Deployment
 
 ### Production Deployment Checklist
+
 - [ ] Change default passwords
 - [ ] Configure HTTPS/SSL
 - [ ] Set up monitoring
@@ -367,6 +374,7 @@ The application includes security headers:
 - [ ] Monitor performance
 
 ### Scaling
+
 For high-traffic deployments:
 - Use load balancer (nginx/HAProxy)
 - Scale backend horizontally
