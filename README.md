@@ -115,7 +115,20 @@ open http://localhost:5174
 
 ## 🛠 Installation
 
-### Docker Deployment 
+### TL;DR
+
+Here is the quick installation guide using Docker:
+
+```bash
+git clone https://github.com/iu2frl/seedbox-lite.git
+cd seedbox-lite
+cp .env.sample .env
+# Edit .env to configure settings
+nano .env
+docker-compose up -d
+```
+
+### Full Docker Deployment
 
 #### Step 1: Clone Repository
 
