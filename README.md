@@ -75,22 +75,6 @@ SeedBox Lite is a cutting-edge torrent streaming platform that allows you to wat
 
 [View all screenshots](https://github.com/hotheadhacker/seedbox-lite/tree/main/screenshots)
 
-## 🚀 Quick Start
-
-### Using Docker
-
-```bash
-# Clone the repository
-git clone https://github.com/hotheadhacker/seedbox-lite.git
-cd seedbox-lite
-
-# Start with Docker Compose
-docker-compose up -d
-
-# Access the application
-open http://localhost:5174
-```
-
 ## 📋 Prerequisites
 
 ### System Requirements
