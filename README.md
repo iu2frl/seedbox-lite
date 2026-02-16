@@ -14,9 +14,9 @@ Stream Torrents Instantly
 
 **A modern, lightweight torrent streaming application with instant playback**
 
-<img src="https://raw.githubusercontent.com/hotheadhacker/seedbox-lite/refs/heads/main/screenshots/details-screen.png" alt="SeedBox Lite Screenshot" width="80%"/>
+<img src="https://raw.githubusercontent.com/iu2frl/seedbox-lite/refs/heads/main/screenshots/details-screen.png" alt="SeedBox Lite Screenshot" width="80%"/>
 
-[View all screenshots](https://github.com/hotheadhacker/seedbox-lite/tree/main/screenshots)
+[View all screenshots](https://github.com/iu2frl/seedbox-lite/tree/main/screenshots)
 
 [Features](#-features) • [Screenshots](#-screenshots) • [Quick Start](#-quick-start) • [Installation](#-installation) • [Documentation](#-documentation)
 
@@ -73,7 +73,7 @@ SeedBox Lite is a cutting-edge torrent streaming platform that allows you to wat
 
 ## 📸 Screenshots
 
-[View all screenshots](https://github.com/hotheadhacker/seedbox-lite/tree/main/screenshots)
+[View all screenshots](https://github.com/iu2frl/seedbox-lite/tree/main/screenshots)
 
 ## 📋 Prerequisites
 
@@ -384,8 +384,8 @@ For high-traffic deployments:
 ### Getting Help
 
 - 📖 [Documentation](./docs/)
-- 🐛 [Issue Tracker](https://github.com/hotheadhacker/seedbox-lite/issues)
-- 💬 [Discussions](https://github.com/hotheadhacker/seedbox-lite/discussions)
+- 🐛 [Issue Tracker](https://github.com/iu2frl/seedbox-lite/issues)
+- 💬 [Discussions](https://github.com/iu2frl/seedbox-lite/discussions)
 
 ### Contributing
 
